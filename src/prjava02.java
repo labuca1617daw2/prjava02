@@ -11,6 +11,7 @@ import java.net.*;
 public class prjava02 {
 public static void main(String[] args){
     System.out.println("versió 0.1 del projecte prjava02");
+	System.out.println("Creació d'una branca del projecte prjava02");
     try{
         InetAddress adreça =InetAddress.getLocalHost();
         String hostname=adreça.getHostName();
